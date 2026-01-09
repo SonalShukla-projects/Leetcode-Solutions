@@ -2,7 +2,8 @@ name: Sync LeetCode Solutions
 
 on:
   schedule:
-    - cron: "0 0 * * *" # daily at midnight UTC
+     - cron: "30 17 * * *" # daily at 11 PM IST
+
   workflow_dispatch: # allows manual run
 
 jobs:
